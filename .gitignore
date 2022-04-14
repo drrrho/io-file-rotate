@@ -6,6 +6,19 @@
 *.o
 *.pm.tdy
 *.bs
+*.bak
+*.deb
+*.build
+*.buildinfo
+*.changes
+IO-File-Rotate*
+ignore.txt
+*~
+token
+
+t/*
+
+junk
 
 # Devel::Cover
 cover_db/
@@ -20,6 +33,7 @@ nytprof.out
 _build/
 Build
 Build.bat
+Makefile.PL
 
 # Module::Install
 inc/
